@@ -20,6 +20,7 @@ KCM.SimpleKCM {
     id: root
 
     KCM.ConfigModule.quickHelp: i18n("This module lets you see energy information and statistics.")
+    KCM.ConfigModule.buttons: KCM.ConfigModule.NoAdditionalButton
 
     property QtObject currentBattery: null
     property string currentUdi: ""
